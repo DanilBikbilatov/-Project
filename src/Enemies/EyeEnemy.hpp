@@ -3,7 +3,6 @@
 
 #include "../GameObject/GameObject.hpp"
 #include "cmath"
-#include <../external/PriorityQueue/PriorityQueue.hpp>
 #include <algorithm>
 #include <map>
 

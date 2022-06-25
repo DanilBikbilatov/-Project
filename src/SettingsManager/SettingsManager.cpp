@@ -10,4 +10,5 @@ SettingsManager::SettingsManager(std::string path) {
   SoundSettings = toml::find(table, "sounds");
   WorldGenSettings = toml::find(table, "world");
   EnemySettings = toml::find(table, "enemy");
+
 }

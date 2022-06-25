@@ -1,5 +1,5 @@
 #pragma once
-#include <../GameObject/GameObject.hpp>
+#include "../GameObject/GameObject.hpp"
 #include <SFML/Graphics.hpp>
 
 class Bullet : public sf::Drawable, public sf::Transformable {

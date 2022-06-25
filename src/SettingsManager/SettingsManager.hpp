@@ -9,7 +9,7 @@ struct SettingsManager {
 	 * @brief Структура содержащий все настройки игры
 	 * @param settingsPath путь к файлу настроек игры (toml)
 	 */
-	SettingsManager(std::string settingsPath = "../src/settings.toml");
+	SettingsManager(std::string settingsPath = "../../src/settings.toml");
 	toml::value PlayerSettings;
 	toml::value PlayerSpritesSettings;
 	toml::value SpriteSettings;
